@@ -3,9 +3,11 @@
 void main() {
     IO.println("Gennemsnittet af 1, 2, 3, 4, 5 er: " 
         + calculateAverage(new int[]{1, 2, 3, 4, 5}));
-    IO.println("Gennemsnittet af en tom liste er: " 
-        + calculateAverage(new int[]{}));
+    IO.println("Gennemsnittet af en tom liste er: "
+        + calculateAverage(new int[]{1
+        }));
 }
+
 
 double calculateAverage(int[] numbers) {
     int sum = 0;
