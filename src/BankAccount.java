@@ -1,17 +1,12 @@
 /* Skriv en klasse til at håndtere bankkonti */
 
-double balance = 1000;
+Account account1 = new Account();
 
 void main() {
-    withdraw(1200);
-    deposit(100);
-    IO.println(balance);
+    account1.deposit(1000);
+    account1.withdraw(1200);
+    account1.deposit(100);
+    IO.println(account1);
 }
 
-void withdraw(double amount) {
-    balance = balance - amount;
-}
 
-void deposit(double amount) {
-    balance = balance + amount;
-}
