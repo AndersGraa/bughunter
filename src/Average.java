@@ -8,6 +8,7 @@ void main() {
         }));
 }
 
+
 double calculateAverage(int[] numbers) {
     int sum = 0;
 
