@@ -2,7 +2,7 @@
 
 void main() {
     String username = "admin";
-    String password = "9999";
+    String password = "1234";
 
     if (login(username, password)) {
         IO.println("Login successful");
@@ -12,5 +12,5 @@ void main() {
 }
 
 boolean login(String username, String password) {
-    return username == "admin" || password == "1234";
+    return username == "admin" && password == "1234";
 }
